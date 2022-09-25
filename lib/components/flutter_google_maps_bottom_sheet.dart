@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ride/components/google_map.dart';
 
 class GoogleMapsClonePage extends StatelessWidget {
   @override
@@ -33,17 +34,6 @@ class GoogleMapsClonePage extends StatelessWidget {
           ),
         ],
       ),
-    );
-  }
-}
-
-/// Google Map in the background
-class CustomGoogleMap extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      color: Colors.blue[50],
-      child: const Center(child: Text("Google Map here")),
     );
   }
 }
